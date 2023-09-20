@@ -30,11 +30,11 @@
 /*cover*/
 
 .Cover {
-    height: 92vh;
+    height: 95.7vh;
     background-color: black;
     margin-top: -15px;
     color: aliceblue;
-    background: linear-gradient(-45deg, rgba(0, 0, 0, 0.505), rgba(15, 15, 15, 0.85)) , url(https://i.pinimg.com/originals/7d/05/c8/7d05c8374e342ad88ae74d72183e92b3.gif) ;
+    background: linear-gradient(-45deg, rgba(0, 0, 0, 0.505), rgba(15, 15, 15, 0.85)) , url(https://cdn.theatlantic.com/thumbor/VE4VvyBfK3ZBCKUdP5I72hf5SIY=/0x0:2000x1125/960x540/media/img/mt/2019/10/Matrix/original.gif) ;
     background-size: cover;
     background-position: center;
     
