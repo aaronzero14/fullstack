@@ -34,7 +34,7 @@
     background-color: black;
     margin-top: -15px;
     color: aliceblue;
-    background: linear-gradient(-45deg, rgba(0, 0, 0, 0.505), rgba(15, 15, 15, 0.85)) , url(https://cdn.theatlantic.com/thumbor/VE4VvyBfK3ZBCKUdP5I72hf5SIY=/0x0:2000x1125/960x540/media/img/mt/2019/10/Matrix/original.gif) ;
+    background: linear-gradient(-45deg, rgba(0, 0, 0, 0.505), rgba(15, 15, 15, 0.85)) , url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/251c09db-ab6d-4fd9-a3a9-cb7a59e1775a/dfx2cjw-405a26a4-6bb3-4490-aaee-70c1a71e6e96.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzI1MWMwOWRiLWFiNmQtNGZkOS1hM2E5LWNiN2E1OWUxNzc1YVwvZGZ4MmNqdy00MDVhMjZhNC02YmIzLTQ0OTAtYWFlZS03MGMxYTcxZTZlOTYuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.6wrOb7nw-1BvJgfBwTcKIiO9dHi5SFLYvZTEPl9O8bE) ;
     background-size: cover;
     background-position: center;
     
@@ -51,14 +51,14 @@ color: rgb(160, 254, 105);
     transition: 0.6s;
 }
 .lists:hover{
-    color: rgb(255, 90, 203);transition:1s;
+    color: rgb(90, 255, 228);transition:1s;
     font-size: 3em;
     animation: moveUpDown 1s ease-in-out infinite;
     cursor: pointer;
     margin-top: -4vh;
     background-color: #181818bf;
     height: 10vh;
-    width: 70%;
+    width: 100%;
     text-align: center;
     border-radius: 50px 1px 5px 1px;
 
