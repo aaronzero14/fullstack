@@ -39,6 +39,13 @@
     background-position: center;
     
 }
+@media(max-width: 600px){
+.Cover {
+  height: 55vh;
+}
+ 
+
+}
 .colors {
 color: rgb(160, 254, 105);
 }
