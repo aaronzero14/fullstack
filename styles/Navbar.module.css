@@ -114,3 +114,12 @@ color: rgb(160, 254, 105);
     background-color: #000000;
     transition: 1s;
   }
+
+
+@media(max-width: 600px){
+div.scrollmenu {
+
+  height: 13vh;
+}
+
+}
