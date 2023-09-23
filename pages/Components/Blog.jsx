@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styles from '../../styles/Blog.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCodeBranch, faDiagramProject, faLink, faMagic, faPerson, faPersonArrowDownToLine  } from '@fortawesome/free-solid-svg-icons';
+import { faCodeBranch, faDiagramProject, faEye, faLink, faMagic, faPerson, faPersonArrowDownToLine  } from '@fortawesome/free-solid-svg-icons';
 
 export default function Blog() {
   const [darkMode, setDarkMode] = useState(false);
@@ -21,7 +21,7 @@ export default function Blog() {
   </div><br />
       <div className={styles.grid}>
   <article className={styles.main}>
-    <h1><FontAwesomeIcon icon={faPersonArrowDownToLine} color='greenyellow' /> About Me </h1>
+    <h1><FontAwesomeIcon icon={faPersonArrowDownToLine} color='purple' /> About Me </h1>
     <p>With a strong background in both front-end and back-end technologies, I create robust and user-friendly applications. My expertise in penetration testing enhances my ability to ensure the security and reliability of the software solutions I develop.</p>
     <p>I build things for the web. I’m a software engineer specializing in building (and occasionally designing) exceptional digital experiences.Currently, I’m focused on building accessible, human-centered products at Upstatement..</p>
   </article>
@@ -48,7 +48,7 @@ export default function Blog() {
 
   </article>
   <section className={styles.side}>
-    <h1><FontAwesomeIcon icon={faMagic} color='orange' /> Watch my video, about me and skills me </h1>
+    <h1><FontAwesomeIcon icon={faEye} color='red' /> Watch my video, about me and skills me </h1>
     
     <br /><br />
      {/* Agrega el iframe para el video de YouTube */}
