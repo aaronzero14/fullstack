@@ -15,6 +15,8 @@ export default function Navbar() {
     };
     //_______________________
     const lists = ["Hi Hack your welcome",  "I`m Fullstack Developer", "Write me,  I work for your project!"];
+
+
   
     return (
       
@@ -26,8 +28,9 @@ export default function Navbar() {
         <Link href="/otra-pagina" className={styles.links_rigth}> <FontAwesomeIcon icon={faCode} color=' rgb(14, 246, 157)' /> {urls_navbars.urls_1} </Link>
         </div>
     </div> 
-
+      
       <div className={styles.Cover}> <br /><br />
+   
         <ul className={styles.list}>
         <FontAwesomeIcon icon={faLaptopCode} color=' rgb(160, 254, 105)' fontSize={80} />
           {lists.map((url, index) => (
@@ -46,6 +49,8 @@ export default function Navbar() {
       <Link href="/otra-pagina" className={styles.links_rigth}> <FontAwesomeIcon icon={faLink} color='greenyellow' />  Computrabajo</Link>
       
      </div>
+
+    
 
 </div>  
   )

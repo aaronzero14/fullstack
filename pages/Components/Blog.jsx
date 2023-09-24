@@ -16,7 +16,7 @@ export default function Blog() {
   <h1 className={styles.Full}> <br /><br /><FontAwesomeIcon icon={faCodeBranch} color='greenyellow' /> Fullstack Developer</h1>
  <center> <button className={styles.dark_mode} onClick={() => setDarkMode(!darkMode)}>
 
-        {darkMode ? 'Desactivar' : 'Activar'} Dark Mode
+        {darkMode ? 'Off' : 'On'} Dark Mode
       </button></center>
   </div><br />
       <div className={styles.grid}>
