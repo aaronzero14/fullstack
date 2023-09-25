@@ -42,6 +42,9 @@
 @media(max-width: 600px){
 .Cover {
   height: 55vh;
+  background: linear-gradient(-45deg, rgba(0, 0, 0, 0.096), rgba(15, 15, 15, 0.252)) , url(../public/hack.gif) ;
+  background-size: cover;
+  background-position: center;
 }
  
 
