@@ -34,7 +34,7 @@
     background-color: black;
     margin-top: -15px;
     color: aliceblue;
-    background: linear-gradient(-45deg, rgba(0, 0, 0, 0.505), rgba(15, 15, 15, 0.85)) , url(../public/hack.gif) ;
+    background: linear-gradient(-45deg, rgba(0, 0, 0, 0.346), rgba(15, 15, 15, 0.618)) , url(../public/hack.gif) ;
     background-size: cover;
     background-position: center;
     
