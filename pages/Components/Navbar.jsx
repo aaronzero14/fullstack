@@ -24,15 +24,15 @@ export default function Navbar() {
     <div className={styles.Navbar}>
         <div className={styles.ME}> <FontAwesomeIcon icon={faCoffee} color='brown' /> {Me} </div>
         <div className={styles.Links}>
-        <Link href="/otra-pagina" className={styles.links_rigth}> <FontAwesomeIcon icon={faCode} color='greenyellow' /> {urls_navbars.urls_0} </Link>
-        <Link href="/otra-pagina" className={styles.links_rigth}> <FontAwesomeIcon icon={faCode} color=' rgb(14, 246, 157)' /> {urls_navbars.urls_1} </Link>
+        <Link href="/Frontend" className={styles.links_rigth}> <FontAwesomeIcon icon={faCode} color='greenyellow' /> {urls_navbars.urls_0} </Link>
+        <Link href="/Backend" className={styles.links_rigth}> <FontAwesomeIcon icon={faCode} color=' rgb(14, 246, 157)' /> {urls_navbars.urls_1} </Link>
         </div>
     </div> 
       
       <div className={styles.Cover}> <br /><br />
    
         <ul className={styles.list}>
-        <FontAwesomeIcon icon={faLaptopCode} color=' rgb(160, 254, 105)' fontSize={80} />
+        <FontAwesomeIcon icon={faLaptopCode} color=' rgb(208, 66, 255)' fontSize={80} />
           {lists.map((url, index) => (
             <li key={index}  className={styles.lists}>{url}</li>
           ))}

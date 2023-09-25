@@ -1,0 +1,23 @@
+/* styles/AnimatedText.module.css */
+.backend{background-color: rgb(26, 26, 26);}
+.animated_text {
+    font-size: 18px;
+    color: #7dff52;
+    background-color:  rgb(26, 26, 26);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+    
+  }
+
+  .container {color: #7dff52;
+  height: 100vh;
+  text-align: left;
+  font-size: 14px;
+  width: 50%;
+  margin: 0 auto;
+
+  }
+  
