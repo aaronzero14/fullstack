@@ -16,10 +16,11 @@ export default function Blog_1() {
 <br /><br />
 <div className={styles.grid}>
   <article className={styles.main}>
-    <h1>Tatto Studio</h1>
-<center>    <FontAwesomeIcon icon={faSyringe} color='gray' fontSize={200} /> </center>    
+    <h1> <FontAwesomeIcon icon={faSyringe} color='gray' fontSize={30} /> Tatto Studio</h1>
+
+<img src="https://wallpapers.com/images/hd/white-haired-bad-girl-with-tattoo-ml15c7zmqs0ghjef.jpg" alt="imgs" className={styles.imgs_blogs} />
 <p>
-App weather created to Javascript.
+App created with HTML, CSS & Javascript
     </p>
    <Link href="https://weather-14.netlify.app/  " >
    <div className={styles.link_1}><br /> Look the project</div>
@@ -28,8 +29,9 @@ App weather created to Javascript.
   </article>
 
   <article className={styles.main}>
-    <h1>App Weather</h1>
-<center>    <FontAwesomeIcon icon={faCloud} color='#0070f3' fontSize={200} /> </center>    
+    <h1> <FontAwesomeIcon icon={faCloud} color='#0070f3' fontSize={30} />  App Weather</h1>
+    <img src="https://wallpapers.com/images/hd/weather-scenarios-collage-dbk9c5n23l7e5fgb.jpg" alt="imgs" className={styles.imgs_blogs} />
+
 <p>
 App weather created to Javascript.
     </p>
@@ -39,8 +41,9 @@ App weather created to Javascript.
 
   </article>
   <section className={styles.side}>
-    <h1>Password Generator</h1>
-<center>    <FontAwesomeIcon icon={faKey} color='yellow' fontSize={200}  /> </center>
+    <h1><FontAwesomeIcon icon={faKey} color='yellow' fontSize={30}  /> Password Generator</h1>
+    <img src="https://d3c80vss50ue25.cloudfront.net/media/filer_public_thumbnails/filer_public/cd/17/cd17c494-267a-451b-b8dc-0bb12a024e35/expression_website_1920x1080.jpg__1920x1920_q85_subject_location-960%2C539_subsampling-2_upscale.jpg" alt="imgs" className={styles.imgs_blogs} />
+
     <p>
 App Password created Javascript
     </p>
@@ -49,11 +52,10 @@ App Password created Javascript
    </Link>
   </section>
   <section className={styles.side}>
-    <h1>Zero Net Solutions</h1>
-<center>
-<FontAwesomeIcon icon={faCode} color='greenyellow' fontSize={200}  /> 
+    <h1><FontAwesomeIcon icon={faCode} color='greenyellow' fontSize={30}  />  Zero Net Solutions</h1>
+    <img src="https://images.wallpaperscraft.com/image/single/code_programming_symbols_140997_1920x1080.jpg" alt="imgs" className={styles.imgs_blogs} />
 
-</center>
+
     <p>
    Software Solutions
     </p>

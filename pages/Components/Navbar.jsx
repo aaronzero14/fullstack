@@ -41,12 +41,11 @@ export default function Navbar() {
 
      <div className={styles.scrollmenu}>
       <a>Connect Networks &rarr;</a>
-      <Link href="/otra-pagina" className={styles.links_rigth}> <FontAwesomeIcon icon={faLink} color='rgb(0, 153, 255)' /> Facebook</Link>
-      <Link href="/otra-pagina" className={styles.links_rigth}> <FontAwesomeIcon icon={faLink} color=' palevioletred' /> Instagram</Link>
-      <Link href="/otra-pagina" className={styles.links_rigth}> <FontAwesomeIcon icon={faLink} color='red' /> Youtube</Link>
-      <Link href="/otra-pagina" className={styles.links_rigth}> <FontAwesomeIcon icon={faLink} color='gray' /> Github</Link>
-      <Link href="/otra-pagina" className={styles.links_rigth}> <FontAwesomeIcon icon={faLink} color='rgb(18, 61, 90)' /> Linkedin</Link>
-      <Link href="/otra-pagina" className={styles.links_rigth}> <FontAwesomeIcon icon={faLink} color='greenyellow' />  Computrabajo</Link>
+      <Link href="https://www.facebook.com/profile.php?id=61551872666612" className={styles.links_rigth}> <FontAwesomeIcon icon={faLink} color='rgb(0, 153, 255)' /> Facebook</Link>
+      <Link href="https://www.instagram.com/aaron_zero_14/" className={styles.links_rigth}> <FontAwesomeIcon icon={faLink} color=' palevioletred' /> Instagram</Link>
+      <Link href="https://github.com/aaronzero14" className={styles.links_rigth}> <FontAwesomeIcon icon={faLink} color='gray' /> Github</Link>
+      <Link href="https://www.linkedin.com/in/aaron-padilla-somarribas-658715275/" className={styles.links_rigth}> <FontAwesomeIcon icon={faLink} color='rgb(18, 61, 90)' /> Linkedin</Link>
+      <Link href="https://candidato.cr.computrabajo.com/candidate/home?idapp=3&f=FEE939887FF3D46C" className={styles.links_rigth}> <FontAwesomeIcon icon={faLink} color='greenyellow' />  Computrabajo</Link>
       
      </div>
 
